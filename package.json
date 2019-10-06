@@ -1,0 +1,15 @@
+{
+  "name": "0918nobita.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:0918nobita/0918nobita.github.io.git",
+  "author": "0918nobita <nobita.0918@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "serve": "static --port 8080"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.11"
+  }
+}
