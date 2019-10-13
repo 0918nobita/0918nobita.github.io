@@ -1,0 +1,22 @@
+body {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+@media screen and (min-width: 1010px) {
+  body {
+    width: 100%;
+    text-align: center;
+  }
+
+  #main {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 1009px) {
+  #main {
+    padding: 10px;
+  }
+}
